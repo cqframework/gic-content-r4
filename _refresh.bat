@@ -1,7 +1,7 @@
 @ECHO OFF
 SET tooling_jar=tooling-1.1.0-SNAPSHOT-jar-with-dependencies.jar
 SET input_cache_path=%~dp0input-cache
-SET ig_resource_path=%~dp0input\connectathon.xml
+SET ig_resource_path=%~dp0input\gic.xml
 
 ECHO Checking internet connection...
 PING tx.fhir.org -n 1 -w 1000 | FINDSTR TTL && GOTO isonline
