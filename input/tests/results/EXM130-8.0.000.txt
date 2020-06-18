@@ -1,0 +1,743 @@
+Running tests.
+Data path: /Users/jacklevitt/Documents/GitHub/gic-content-r4/input/tests/EXM130-8.0.000
+Terminology path: /Users/jacklevitt/Documents/GitHub/gic-content-r4/input/vocabulary/valueset
+Test numer-EXM130
+Thu Jun 18 2020 07:45:46 GMT-0600 (Mountain Daylight Time)
+Patient = org.hl7.fhir.r4.model.Patient@18d22ecf
+SDE Ethnicity = [org.hl7.fhir.r4.model.Coding@73d83141]
+SDE Payer = []
+SDE Race = [org.hl7.fhir.r4.model.Coding@31443680]
+SDE Sex = Code { code: M, system: http://hl7.org/fhir/v3/AdministrativeGender, version: null, display: Male }
+Denominator = true
+Flexible Sigmoidoscopy Performed = []
+CT Colonography Performed = []
+Total Colectomy Performed = []
+Malignant Neoplasm Ever = []
+Fecal Occult Blood Test Performed = []
+Fecal Immunochemical Test DNA = []
+Colonoscopy Performed = [org.hl7.fhir.r4.model.Procedure@33356666]
+Numerator = true
+Denominator Exclusion = false
+Initial Population = true
+elapsed: 6.117 seconds
+
+Test denom-EXM130
+Thu Jun 18 2020 07:45:46 GMT-0600 (Mountain Daylight Time)
+Patient = org.hl7.fhir.r4.model.Patient@73d83141
+SDE Ethnicity = [org.hl7.fhir.r4.model.Coding@31443680]
+SDE Payer = []
+SDE Race = [org.hl7.fhir.r4.model.Coding@33356666]
+SDE Sex = Code { code: M, system: http://hl7.org/fhir/v3/AdministrativeGender, version: null, display: Male }
+Denominator = true
+Flexible Sigmoidoscopy Performed = []
+CT Colonography Performed = []
+Total Colectomy Performed = []
+Malignant Neoplasm Ever = []
+Fecal Occult Blood Test Performed = []
+Fecal Immunochemical Test DNA = []
+Colonoscopy Performed = []
+Numerator = false
+Denominator Exclusion = false
+Initial Population = true
+elapsed: 6.159 seconds
+Running tests.
+Data path: /Users/jacklevitt/Documents/GitHub/gic-content-r4/input/tests/EXM130-8.0.000
+Terminology path: /Users/jacklevitt/Documents/GitHub/gic-content-r4/input/vocabulary/valueset
+Test gic-EXM130
+Thu Jun 18 2020 08:34:58 GMT-0600 (Mountain Daylight Time)
+Patient = org.hl7.fhir.r4.model.Patient@33356666
+SDE Ethnicity = [org.hl7.fhir.r4.model.Coding@3a988299]
+SDE Payer = []
+SDE Race = [org.hl7.fhir.r4.model.Coding@878feb2]
+SDE Sex = Code { code: M, system: http://hl7.org/fhir/v3/AdministrativeGender, version: null, display: Male }
+Denominator = true
+Flexible Sigmoidoscopy Performed = []
+CT Colonography Performed = []
+Total Colectomy Performed = []
+Malignant Neoplasm Ever = []
+Fecal Occult Blood Test Performed = []
+Fecal Immunochemical Test DNA = []
+Colonoscopy Performed = [org.hl7.fhir.r4.model.Procedure@1818390b]
+Numerator = true
+Denominator Exclusion = false
+Initial Population = true
+elapsed: 6.362 seconds
+
+Test denom-EXM130
+Thu Jun 18 2020 08:34:58 GMT-0600 (Mountain Daylight Time)
+Patient = org.hl7.fhir.r4.model.Patient@18d22ecf
+SDE Ethnicity = [org.hl7.fhir.r4.model.Coding@73d83141]
+SDE Payer = []
+SDE Race = [org.hl7.fhir.r4.model.Coding@31443680]
+SDE Sex = Code { code: M, system: http://hl7.org/fhir/v3/AdministrativeGender, version: null, display: Male }
+Denominator = true
+Flexible Sigmoidoscopy Performed = []
+CT Colonography Performed = []
+Total Colectomy Performed = []
+Malignant Neoplasm Ever = []
+Fecal Occult Blood Test Performed = []
+Fecal Immunochemical Test DNA = []
+Colonoscopy Performed = []
+Numerator = false
+Denominator Exclusion = false
+Initial Population = true
+elapsed: 6.496 seconds
+
+Test numer-EXM130
+Thu Jun 18 2020 08:34:58 GMT-0600 (Mountain Daylight Time)
+Patient = org.hl7.fhir.r4.model.Patient@73d83141
+SDE Ethnicity = [org.hl7.fhir.r4.model.Coding@31443680]
+SDE Payer = []
+SDE Race = [org.hl7.fhir.r4.model.Coding@33356666]
+SDE Sex = Code { code: M, system: http://hl7.org/fhir/v3/AdministrativeGender, version: null, display: Male }
+Denominator = true
+Flexible Sigmoidoscopy Performed = []
+CT Colonography Performed = []
+Total Colectomy Performed = []
+Malignant Neoplasm Ever = []
+Fecal Occult Blood Test Performed = []
+Fecal Immunochemical Test DNA = []
+Colonoscopy Performed = [org.hl7.fhir.r4.model.Procedure@3a988299]
+Numerator = true
+Denominator Exclusion = false
+Initial Population = true
+elapsed: 6.528 seconds
+
+Running tests.
+Data path: /Users/jacklevitt/Documents/GitHub/gic-content-r4/input/tests/EXM130-8.0.000
+Terminology path: /Users/jacklevitt/Documents/GitHub/gic-content-r4/input/vocabulary/valueset
+Test numer-EXM130
+Thu Jun 18 2020 08:35:48 GMT-0600 (Mountain Daylight Time)
+Patient = org.hl7.fhir.r4.model.Patient@31443680
+SDE Ethnicity = [org.hl7.fhir.r4.model.Coding@33356666]
+SDE Payer = []
+SDE Race = [org.hl7.fhir.r4.model.Coding@3a988299]
+SDE Sex = Code { code: M, system: http://hl7.org/fhir/v3/AdministrativeGender, version: null, display: Male }
+Denominator = true
+Flexible Sigmoidoscopy Performed = []
+CT Colonography Performed = []
+Total Colectomy Performed = []
+Malignant Neoplasm Ever = []
+Fecal Occult Blood Test Performed = []
+Fecal Immunochemical Test DNA = []
+Colonoscopy Performed = [org.hl7.fhir.r4.model.Procedure@878feb2]
+Numerator = true
+Denominator Exclusion = false
+Initial Population = true
+elapsed: 7.932 seconds
+
+Test gic-EXM130
+Thu Jun 18 2020 08:35:48 GMT-0600 (Mountain Daylight Time)
+Patient = org.hl7.fhir.r4.model.Patient@73d83141
+SDE Ethnicity = [org.hl7.fhir.r4.model.Coding@31443680]
+SDE Payer = []
+SDE Race = [org.hl7.fhir.r4.model.Coding@33356666]
+SDE Sex = Code { code: M, system: http://hl7.org/fhir/v3/AdministrativeGender, version: null, display: Male }
+Denominator = true
+Flexible Sigmoidoscopy Performed = []
+CT Colonography Performed = []
+Total Colectomy Performed = []
+Malignant Neoplasm Ever = []
+Fecal Occult Blood Test Performed = []
+Fecal Immunochemical Test DNA = []
+Colonoscopy Performed = [org.hl7.fhir.r4.model.Procedure@3a988299]
+Numerator = true
+Denominator Exclusion = false
+Initial Population = true
+elapsed: 8.09 seconds
+
+Test denom-EXM130
+Thu Jun 18 2020 08:35:48 GMT-0600 (Mountain Daylight Time)
+Patient = org.hl7.fhir.r4.model.Patient@3a988299
+SDE Ethnicity = [org.hl7.fhir.r4.model.Coding@878feb2]
+SDE Payer = []
+SDE Race = [org.hl7.fhir.r4.model.Coding@1818390b]
+SDE Sex = Code { code: M, system: http://hl7.org/fhir/v3/AdministrativeGender, version: null, display: Male }
+Denominator = true
+Flexible Sigmoidoscopy Performed = []
+CT Colonography Performed = []
+Total Colectomy Performed = []
+Malignant Neoplasm Ever = []
+Fecal Occult Blood Test Performed = []
+Fecal Immunochemical Test DNA = []
+Colonoscopy Performed = []
+Numerator = false
+Denominator Exclusion = false
+Initial Population = true
+elapsed: 8.152 seconds
+Running tests.
+Data path: /Users/jacklevitt/Documents/GitHub/gic-content-r4/input/tests/EXM130-8.0.000
+Terminology path: /Users/jacklevitt/Documents/GitHub/gic-content-r4/input/vocabulary/valueset
+Test gic-EXM130
+Thu Jun 18 2020 08:36:24 GMT-0600 (Mountain Daylight Time)
+Patient = org.hl7.fhir.r4.model.Patient@18d22ecf
+SDE Ethnicity = [org.hl7.fhir.r4.model.Coding@73d83141]
+SDE Payer = []
+SDE Race = [org.hl7.fhir.r4.model.Coding@31443680]
+SDE Sex = Code { code: M, system: http://hl7.org/fhir/v3/AdministrativeGender, version: null, display: Male }
+Denominator = true
+Flexible Sigmoidoscopy Performed = []
+CT Colonography Performed = []
+Total Colectomy Performed = []
+Malignant Neoplasm Ever = []
+Fecal Occult Blood Test Performed = []
+Fecal Immunochemical Test DNA = []
+Colonoscopy Performed = [org.hl7.fhir.r4.model.Procedure@33356666]
+Numerator = true
+Denominator Exclusion = false
+Initial Population = true
+elapsed: 7.801 seconds
+
+Test denom-EXM130
+Thu Jun 18 2020 08:36:24 GMT-0600 (Mountain Daylight Time)
+Patient = org.hl7.fhir.r4.model.Patient@73d83141
+SDE Ethnicity = [org.hl7.fhir.r4.model.Coding@31443680]
+SDE Payer = []
+SDE Race = [org.hl7.fhir.r4.model.Coding@33356666]
+SDE Sex = Code { code: M, system: http://hl7.org/fhir/v3/AdministrativeGender, version: null, display: Male }
+Denominator = true
+Flexible Sigmoidoscopy Performed = []
+CT Colonography Performed = []
+Total Colectomy Performed = []
+Malignant Neoplasm Ever = []
+Fecal Occult Blood Test Performed = []
+Fecal Immunochemical Test DNA = []
+Colonoscopy Performed = []
+Numerator = false
+Denominator Exclusion = false
+Initial Population = true
+elapsed: 7.89 seconds
+
+Test numer-EXM130
+Thu Jun 18 2020 08:36:24 GMT-0600 (Mountain Daylight Time)
+Patient = org.hl7.fhir.r4.model.Patient@73d83141
+SDE Ethnicity = [org.hl7.fhir.r4.model.Coding@31443680]
+SDE Payer = []
+SDE Race = [org.hl7.fhir.r4.model.Coding@33356666]
+SDE Sex = Code { code: M, system: http://hl7.org/fhir/v3/AdministrativeGender, version: null, display: Male }
+Denominator = true
+Flexible Sigmoidoscopy Performed = []
+CT Colonography Performed = []
+Total Colectomy Performed = []
+Malignant Neoplasm Ever = []
+Fecal Occult Blood Test Performed = []
+Fecal Immunochemical Test DNA = []
+Colonoscopy Performed = [org.hl7.fhir.r4.model.Procedure@3a988299]
+Numerator = true
+Denominator Exclusion = false
+Initial Population = true
+elapsed: 7.936 seconds
+Running tests.
+Data path: /Users/jacklevitt/Documents/GitHub/gic-content-r4/input/tests/EXM130-8.0.000
+Terminology path: /Users/jacklevitt/Documents/GitHub/gic-content-r4/input/vocabulary/valueset
+Test denom-EXM130
+Thu Jun 18 2020 08:37:56 GMT-0600 (Mountain Daylight Time)
+Patient = org.hl7.fhir.r4.model.Patient@33356666
+SDE Ethnicity = [org.hl7.fhir.r4.model.Coding@3a988299]
+SDE Payer = []
+SDE Race = [org.hl7.fhir.r4.model.Coding@878feb2]
+SDE Sex = Code { code: M, system: http://hl7.org/fhir/v3/AdministrativeGender, version: null, display: Male }
+Denominator = true
+Flexible Sigmoidoscopy Performed = []
+CT Colonography Performed = []
+Total Colectomy Performed = []
+Malignant Neoplasm Ever = []
+Fecal Occult Blood Test Performed = []
+Fecal Immunochemical Test DNA = []
+Colonoscopy Performed = []
+Numerator = false
+Denominator Exclusion = false
+Initial Population = true
+elapsed: 7.628 seconds
+
+Test numer-EXM130
+Thu Jun 18 2020 08:37:56 GMT-0600 (Mountain Daylight Time)
+Patient = org.hl7.fhir.r4.model.Patient@73d83141
+SDE Ethnicity = [org.hl7.fhir.r4.model.Coding@31443680]
+SDE Payer = []
+SDE Race = [org.hl7.fhir.r4.model.Coding@33356666]
+SDE Sex = Code { code: M, system: http://hl7.org/fhir/v3/AdministrativeGender, version: null, display: Male }
+Denominator = true
+Flexible Sigmoidoscopy Performed = []
+CT Colonography Performed = []
+Total Colectomy Performed = []
+Malignant Neoplasm Ever = []
+Fecal Occult Blood Test Performed = []
+Fecal Immunochemical Test DNA = []
+Colonoscopy Performed = [org.hl7.fhir.r4.model.Procedure@3a988299]
+Numerator = true
+Denominator Exclusion = false
+Initial Population = true
+elapsed: 7.777 seconds
+
+Test gic-EXM130
+Thu Jun 18 2020 08:37:56 GMT-0600 (Mountain Daylight Time)
+Patient = org.hl7.fhir.r4.model.Patient@73d83141
+SDE Ethnicity = [org.hl7.fhir.r4.model.Coding@31443680]
+SDE Payer = []
+SDE Race = [org.hl7.fhir.r4.model.Coding@33356666]
+SDE Sex = Code { code: M, system: http://hl7.org/fhir/v3/AdministrativeGender, version: null, display: Male }
+Denominator = true
+Flexible Sigmoidoscopy Performed = []
+CT Colonography Performed = []
+Total Colectomy Performed = []
+Malignant Neoplasm Ever = []
+Fecal Occult Blood Test Performed = []
+Fecal Immunochemical Test DNA = []
+Colonoscopy Performed = [org.hl7.fhir.r4.model.Procedure@3a988299]
+Numerator = true
+Denominator Exclusion = false
+Initial Population = true
+elapsed: 7.872 seconds
+Running tests.
+Data path: /Users/jacklevitt/Documents/GitHub/gic-content-r4/input/tests/EXM130-8.0.000
+Terminology path: /Users/jacklevitt/Documents/GitHub/gic-content-r4/input/vocabulary/valueset
+Test gic-EXM130
+Thu Jun 18 2020 08:38:46 GMT-0600 (Mountain Daylight Time)
+Patient = org.hl7.fhir.r4.model.Patient@18d22ecf
+SDE Ethnicity = [org.hl7.fhir.r4.model.Coding@73d83141]
+SDE Payer = []
+SDE Race = [org.hl7.fhir.r4.model.Coding@31443680]
+SDE Sex = Code { code: M, system: http://hl7.org/fhir/v3/AdministrativeGender, version: null, display: Male }
+Denominator = true
+Flexible Sigmoidoscopy Performed = []
+CT Colonography Performed = []
+Total Colectomy Performed = []
+Malignant Neoplasm Ever = []
+Fecal Occult Blood Test Performed = []
+Fecal Immunochemical Test DNA = []
+Colonoscopy Performed = []
+Numerator = false
+Denominator Exclusion = false
+Initial Population = true
+elapsed: 8.14 seconds
+
+Test denom-EXM130
+Thu Jun 18 2020 08:38:46 GMT-0600 (Mountain Daylight Time)
+Patient = org.hl7.fhir.r4.model.Patient@73d83141
+SDE Ethnicity = [org.hl7.fhir.r4.model.Coding@31443680]
+SDE Payer = []
+SDE Race = [org.hl7.fhir.r4.model.Coding@33356666]
+SDE Sex = Code { code: M, system: http://hl7.org/fhir/v3/AdministrativeGender, version: null, display: Male }
+Denominator = true
+Flexible Sigmoidoscopy Performed = []
+CT Colonography Performed = []
+Total Colectomy Performed = []
+Malignant Neoplasm Ever = []
+Fecal Occult Blood Test Performed = []
+Fecal Immunochemical Test DNA = []
+Colonoscopy Performed = []
+Numerator = false
+Denominator Exclusion = false
+Initial Population = true
+elapsed: 8.166 seconds
+
+Test numer-EXM130
+Thu Jun 18 2020 08:38:46 GMT-0600 (Mountain Daylight Time)
+Patient = org.hl7.fhir.r4.model.Patient@3a988299
+SDE Ethnicity = [org.hl7.fhir.r4.model.Coding@878feb2]
+SDE Payer = []
+SDE Race = [org.hl7.fhir.r4.model.Coding@1818390b]
+SDE Sex = Code { code: M, system: http://hl7.org/fhir/v3/AdministrativeGender, version: null, display: Male }
+Denominator = true
+Flexible Sigmoidoscopy Performed = []
+CT Colonography Performed = []
+Total Colectomy Performed = []
+Malignant Neoplasm Ever = []
+Fecal Occult Blood Test Performed = []
+Fecal Immunochemical Test DNA = []
+Colonoscopy Performed = [org.hl7.fhir.r4.model.Procedure@67a38]
+Numerator = true
+Denominator Exclusion = false
+Initial Population = true
+elapsed: 8.266 seconds
+Running tests.
+Data path: /Users/jacklevitt/Documents/GitHub/gic-content-r4/input/tests/EXM130-8.0.000
+Terminology path: /Users/jacklevitt/Documents/GitHub/gic-content-r4/input/vocabulary/valueset
+Test denom-EXM130
+Thu Jun 18 2020 08:39:26 GMT-0600 (Mountain Daylight Time)
+Patient = org.hl7.fhir.r4.model.Patient@18d22ecf
+SDE Ethnicity = [org.hl7.fhir.r4.model.Coding@73d83141]
+SDE Payer = []
+SDE Race = [org.hl7.fhir.r4.model.Coding@31443680]
+SDE Sex = Code { code: M, system: http://hl7.org/fhir/v3/AdministrativeGender, version: null, display: Male }
+Denominator = true
+Flexible Sigmoidoscopy Performed = []
+CT Colonography Performed = []
+Total Colectomy Performed = []
+Malignant Neoplasm Ever = []
+Fecal Occult Blood Test Performed = []
+Fecal Immunochemical Test DNA = []
+Colonoscopy Performed = []
+Numerator = false
+Denominator Exclusion = false
+Initial Population = true
+elapsed: 7.944 seconds
+
+Test numer-EXM130
+Thu Jun 18 2020 08:39:26 GMT-0600 (Mountain Daylight Time)
+Patient = org.hl7.fhir.r4.model.Patient@73d83141
+SDE Ethnicity = [org.hl7.fhir.r4.model.Coding@31443680]
+SDE Payer = []
+SDE Race = [org.hl7.fhir.r4.model.Coding@33356666]
+SDE Sex = Code { code: M, system: http://hl7.org/fhir/v3/AdministrativeGender, version: null, display: Male }
+Denominator = true
+Flexible Sigmoidoscopy Performed = []
+CT Colonography Performed = []
+Total Colectomy Performed = []
+Malignant Neoplasm Ever = []
+Fecal Occult Blood Test Performed = []
+Fecal Immunochemical Test DNA = []
+Colonoscopy Performed = [org.hl7.fhir.r4.model.Procedure@3a988299]
+Numerator = true
+Denominator Exclusion = false
+Initial Population = true
+elapsed: 7.973 seconds
+
+Test gic-EXM130
+Thu Jun 18 2020 08:39:26 GMT-0600 (Mountain Daylight Time)
+Patient = org.hl7.fhir.r4.model.Patient@73d83141
+SDE Ethnicity = [org.hl7.fhir.r4.model.Coding@31443680]
+SDE Payer = []
+SDE Race = [org.hl7.fhir.r4.model.Coding@33356666]
+SDE Sex = Code { code: M, system: http://hl7.org/fhir/v3/AdministrativeGender, version: null, display: Male }
+Denominator = true
+Flexible Sigmoidoscopy Performed = []
+CT Colonography Performed = []
+Total Colectomy Performed = []
+Malignant Neoplasm Ever = []
+Fecal Occult Blood Test Performed = []
+Fecal Immunochemical Test DNA = []
+Colonoscopy Performed = []
+Numerator = false
+Denominator Exclusion = false
+Initial Population = true
+elapsed: 8.139 seconds
+Running tests.
+Data path: /Users/jacklevitt/Documents/GitHub/gic-content-r4/input/tests/EXM130-8.0.000
+Terminology path: /Users/jacklevitt/Documents/GitHub/gic-content-r4/input/vocabulary/valueset
+
+
+
+Test (gaps-through-EXM130)
+Thu Jun 18 2020 10:51:46 GMT-0600 (Mountain Daylight Time)
+Error: Command failed: "java" -jar /Users/jacklevitt/.atom/packages/language-cql/cli/cli-1.2.0-SNAPSHOT-shaded.jar --lp "/Users/jacklevitt/Documents/GitHub/gic-content-r4/input/pagecontent/cql" --ln EXM130 -m "FHIR=/Users/jacklevitt/Documents/GitHub/gic-content-r4/input/tests/EXM130-8.0.000" -t "/Users/jacklevitt/Documents/GitHub/gic-content-r4/input/vocabulary/valueset" -c Patient=gaps-through-EXM130 -v false
+Invalid Interval - the ending boundary must be greater than or equal to the starting boundary.
+org.opencds.cqf.cql.engine.exception.InvalidInterval: Invalid Interval - the ending boundary must be greater than or equal to the starting boundary.
+	at org.opencds.cqf.cql.engine.runtime.Interval.<init>(Interval.java:53)
+	at org.opencds.cqf.cql.engine.elm.execution.IntervalEvaluator.internalEvaluate(IntervalEvaluator.java:20)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.execution.Context.resolveParameterRef(Context.java:416)
+	at org.opencds.cqf.cql.engine.elm.execution.ParameterRefEvaluator.internalEvaluate(ParameterRefEvaluator.java:9)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.EndEvaluator.internalEvaluate(EndEvaluator.java:32)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.SubtractEvaluator.internalEvaluate(SubtractEvaluator.java:128)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.IntervalEvaluator.internalEvaluate(IntervalEvaluator.java:9)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.InEvaluator.internalEvaluate(InEvaluator.java:154)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.AndEvaluator.internalEvaluate(AndEvaluator.java:49)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.AndEvaluator.internalEvaluate(AndEvaluator.java:50)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.QueryEvaluator.evaluateWhere(QueryEvaluator.java:75)
+	at org.opencds.cqf.cql.engine.elm.execution.QueryEvaluator.internalEvaluate(QueryEvaluator.java:198)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.ExpressionDefEvaluator.internalEvaluate(ExpressionDefEvaluator.java:17)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.execution.CqlEngine.evaluateExpressions(CqlEngine.java:178)
+	at org.opencds.cqf.cql.engine.execution.CqlEngine.evaluate(CqlEngine.java:156)
+	at org.opencds.cqf.cql.engine.execution.CqlEngine.evaluate(CqlEngine.java:107)
+	at org.opencds.cqf.cql.engine.execution.CqlEngine.evaluate(CqlEngine.java:99)
+	at org.opencds.cqf.cql.service.Service.evaluate(Service.java:164)
+	at org.opencds.cqf.cql.cli.Main.main(Main.java:30)
+
+Test (no-gaps-EXM130)
+Thu Jun 18 2020 10:51:46 GMT-0600 (Mountain Daylight Time)
+Error: Command failed: "java" -jar /Users/jacklevitt/.atom/packages/language-cql/cli/cli-1.2.0-SNAPSHOT-shaded.jar --lp "/Users/jacklevitt/Documents/GitHub/gic-content-r4/input/pagecontent/cql" --ln EXM130 -m "FHIR=/Users/jacklevitt/Documents/GitHub/gic-content-r4/input/tests/EXM130-8.0.000" -t "/Users/jacklevitt/Documents/GitHub/gic-content-r4/input/vocabulary/valueset" -c Patient=no-gaps-EXM130 -v false
+Invalid Interval - the ending boundary must be greater than or equal to the starting boundary.
+org.opencds.cqf.cql.engine.exception.InvalidInterval: Invalid Interval - the ending boundary must be greater than or equal to the starting boundary.
+	at org.opencds.cqf.cql.engine.runtime.Interval.<init>(Interval.java:53)
+	at org.opencds.cqf.cql.engine.elm.execution.IntervalEvaluator.internalEvaluate(IntervalEvaluator.java:20)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.execution.Context.resolveParameterRef(Context.java:416)
+	at org.opencds.cqf.cql.engine.elm.execution.ParameterRefEvaluator.internalEvaluate(ParameterRefEvaluator.java:9)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.EndEvaluator.internalEvaluate(EndEvaluator.java:32)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.SubtractEvaluator.internalEvaluate(SubtractEvaluator.java:128)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.IntervalEvaluator.internalEvaluate(IntervalEvaluator.java:9)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.InEvaluator.internalEvaluate(InEvaluator.java:154)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.AndEvaluator.internalEvaluate(AndEvaluator.java:49)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.AndEvaluator.internalEvaluate(AndEvaluator.java:50)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.QueryEvaluator.evaluateWhere(QueryEvaluator.java:75)
+	at org.opencds.cqf.cql.engine.elm.execution.QueryEvaluator.internalEvaluate(QueryEvaluator.java:198)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.ExpressionDefEvaluator.internalEvaluate(ExpressionDefEvaluator.java:17)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.execution.CqlEngine.evaluateExpressions(CqlEngine.java:178)
+	at org.opencds.cqf.cql.engine.execution.CqlEngine.evaluate(CqlEngine.java:156)
+	at org.opencds.cqf.cql.engine.execution.CqlEngine.evaluate(CqlEngine.java:107)
+	at org.opencds.cqf.cql.engine.execution.CqlEngine.evaluate(CqlEngine.java:99)
+	at org.opencds.cqf.cql.service.Service.evaluate(Service.java:164)
+	at org.opencds.cqf.cql.cli.Main.main(Main.java:30)
+
+Test (gaps-EXM130)
+Thu Jun 18 2020 10:51:46 GMT-0600 (Mountain Daylight Time)
+Error: Command failed: "java" -jar /Users/jacklevitt/.atom/packages/language-cql/cli/cli-1.2.0-SNAPSHOT-shaded.jar --lp "/Users/jacklevitt/Documents/GitHub/gic-content-r4/input/pagecontent/cql" --ln EXM130 -m "FHIR=/Users/jacklevitt/Documents/GitHub/gic-content-r4/input/tests/EXM130-8.0.000" -t "/Users/jacklevitt/Documents/GitHub/gic-content-r4/input/vocabulary/valueset" -c Patient=gaps-EXM130 -v false
+Invalid Interval - the ending boundary must be greater than or equal to the starting boundary.
+org.opencds.cqf.cql.engine.exception.InvalidInterval: Invalid Interval - the ending boundary must be greater than or equal to the starting boundary.
+	at org.opencds.cqf.cql.engine.runtime.Interval.<init>(Interval.java:53)
+	at org.opencds.cqf.cql.engine.elm.execution.IntervalEvaluator.internalEvaluate(IntervalEvaluator.java:20)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.execution.Context.resolveParameterRef(Context.java:416)
+	at org.opencds.cqf.cql.engine.elm.execution.ParameterRefEvaluator.internalEvaluate(ParameterRefEvaluator.java:9)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.EndEvaluator.internalEvaluate(EndEvaluator.java:32)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.SubtractEvaluator.internalEvaluate(SubtractEvaluator.java:128)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.IntervalEvaluator.internalEvaluate(IntervalEvaluator.java:9)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.InEvaluator.internalEvaluate(InEvaluator.java:154)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.AndEvaluator.internalEvaluate(AndEvaluator.java:49)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.AndEvaluator.internalEvaluate(AndEvaluator.java:50)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.QueryEvaluator.evaluateWhere(QueryEvaluator.java:75)
+	at org.opencds.cqf.cql.engine.elm.execution.QueryEvaluator.internalEvaluate(QueryEvaluator.java:198)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.ExpressionDefEvaluator.internalEvaluate(ExpressionDefEvaluator.java:17)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.execution.CqlEngine.evaluateExpressions(CqlEngine.java:178)
+	at org.opencds.cqf.cql.engine.execution.CqlEngine.evaluate(CqlEngine.java:156)
+	at org.opencds.cqf.cql.engine.execution.CqlEngine.evaluate(CqlEngine.java:107)
+	at org.opencds.cqf.cql.engine.execution.CqlEngine.evaluate(CqlEngine.java:99)
+	at org.opencds.cqf.cql.service.Service.evaluate(Service.java:164)
+	at org.opencds.cqf.cql.cli.Main.main(Main.java:30)
+
+
+
+
+
+Running tests.
+Data path: /Users/jacklevitt/Documents/GitHub/gic-content-r4/input/tests/EXM130-8.0.000
+Terminology path: /Users/jacklevitt/Documents/GitHub/gic-content-r4/input/vocabulary/valuesetTest (gaps-EXM130)
+Thu Jun 18 2020 10:53:49 GMT-0600 (Mountain Daylight Time)
+Error: Command failed: "java" -jar /Users/jacklevitt/.atom/packages/language-cql/cli/cli-1.2.0-SNAPSHOT-shaded.jar --lp "/Users/jacklevitt/Documents/GitHub/gic-content-r4/input/pagecontent/cql" --ln EXM130 -m "FHIR=/Users/jacklevitt/Documents/GitHub/gic-content-r4/input/tests/EXM130-8.0.000" -t "/Users/jacklevitt/Documents/GitHub/gic-content-r4/input/vocabulary/valueset" -c Patient=gaps-EXM130 -v false
+Invalid Interval - the ending boundary must be greater than or equal to the starting boundary.
+org.opencds.cqf.cql.engine.exception.InvalidInterval: Invalid Interval - the ending boundary must be greater than or equal to the starting boundary.
+	at org.opencds.cqf.cql.engine.runtime.Interval.<init>(Interval.java:53)
+	at org.opencds.cqf.cql.engine.elm.execution.IntervalEvaluator.internalEvaluate(IntervalEvaluator.java:20)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.execution.Context.resolveParameterRef(Context.java:416)
+	at org.opencds.cqf.cql.engine.elm.execution.ParameterRefEvaluator.internalEvaluate(ParameterRefEvaluator.java:9)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.EndEvaluator.internalEvaluate(EndEvaluator.java:32)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.SubtractEvaluator.internalEvaluate(SubtractEvaluator.java:128)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.IntervalEvaluator.internalEvaluate(IntervalEvaluator.java:9)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.InEvaluator.internalEvaluate(InEvaluator.java:154)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.AndEvaluator.internalEvaluate(AndEvaluator.java:49)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.AndEvaluator.internalEvaluate(AndEvaluator.java:50)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.QueryEvaluator.evaluateWhere(QueryEvaluator.java:75)
+	at org.opencds.cqf.cql.engine.elm.execution.QueryEvaluator.internalEvaluate(QueryEvaluator.java:198)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.ExpressionDefEvaluator.internalEvaluate(ExpressionDefEvaluator.java:17)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.execution.CqlEngine.evaluateExpressions(CqlEngine.java:178)
+	at org.opencds.cqf.cql.engine.execution.CqlEngine.evaluate(CqlEngine.java:156)
+	at org.opencds.cqf.cql.engine.execution.CqlEngine.evaluate(CqlEngine.java:107)
+	at org.opencds.cqf.cql.engine.execution.CqlEngine.evaluate(CqlEngine.java:99)
+	at org.opencds.cqf.cql.service.Service.evaluate(Service.java:164)
+	at org.opencds.cqf.cql.cli.Main.main(Main.java:30)
+
+Test (no-gaps-EXM130)
+Thu Jun 18 2020 10:53:49 GMT-0600 (Mountain Daylight Time)
+Error: Command failed: "java" -jar /Users/jacklevitt/.atom/packages/language-cql/cli/cli-1.2.0-SNAPSHOT-shaded.jar --lp "/Users/jacklevitt/Documents/GitHub/gic-content-r4/input/pagecontent/cql" --ln EXM130 -m "FHIR=/Users/jacklevitt/Documents/GitHub/gic-content-r4/input/tests/EXM130-8.0.000" -t "/Users/jacklevitt/Documents/GitHub/gic-content-r4/input/vocabulary/valueset" -c Patient=no-gaps-EXM130 -v false
+Invalid Interval - the ending boundary must be greater than or equal to the starting boundary.
+org.opencds.cqf.cql.engine.exception.InvalidInterval: Invalid Interval - the ending boundary must be greater than or equal to the starting boundary.
+	at org.opencds.cqf.cql.engine.runtime.Interval.<init>(Interval.java:53)
+	at org.opencds.cqf.cql.engine.elm.execution.IntervalEvaluator.internalEvaluate(IntervalEvaluator.java:20)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.execution.Context.resolveParameterRef(Context.java:416)
+	at org.opencds.cqf.cql.engine.elm.execution.ParameterRefEvaluator.internalEvaluate(ParameterRefEvaluator.java:9)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.EndEvaluator.internalEvaluate(EndEvaluator.java:32)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.SubtractEvaluator.internalEvaluate(SubtractEvaluator.java:128)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.IntervalEvaluator.internalEvaluate(IntervalEvaluator.java:9)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.InEvaluator.internalEvaluate(InEvaluator.java:154)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.AndEvaluator.internalEvaluate(AndEvaluator.java:49)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.AndEvaluator.internalEvaluate(AndEvaluator.java:50)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.QueryEvaluator.evaluateWhere(QueryEvaluator.java:75)
+	at org.opencds.cqf.cql.engine.elm.execution.QueryEvaluator.internalEvaluate(QueryEvaluator.java:198)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.ExpressionDefEvaluator.internalEvaluate(ExpressionDefEvaluator.java:17)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.execution.CqlEngine.evaluateExpressions(CqlEngine.java:178)
+	at org.opencds.cqf.cql.engine.execution.CqlEngine.evaluate(CqlEngine.java:156)
+	at org.opencds.cqf.cql.engine.execution.CqlEngine.evaluate(CqlEngine.java:107)
+	at org.opencds.cqf.cql.engine.execution.CqlEngine.evaluate(CqlEngine.java:99)
+	at org.opencds.cqf.cql.service.Service.evaluate(Service.java:164)
+	at org.opencds.cqf.cql.cli.Main.main(Main.java:30)
+
+Test (gaps-through-EXM130)
+Thu Jun 18 2020 10:53:49 GMT-0600 (Mountain Daylight Time)
+Error: Command failed: "java" -jar /Users/jacklevitt/.atom/packages/language-cql/cli/cli-1.2.0-SNAPSHOT-shaded.jar --lp "/Users/jacklevitt/Documents/GitHub/gic-content-r4/input/pagecontent/cql" --ln EXM130 -m "FHIR=/Users/jacklevitt/Documents/GitHub/gic-content-r4/input/tests/EXM130-8.0.000" -t "/Users/jacklevitt/Documents/GitHub/gic-content-r4/input/vocabulary/valueset" -c Patient=gaps-through-EXM130 -v false
+Invalid Interval - the ending boundary must be greater than or equal to the starting boundary.
+org.opencds.cqf.cql.engine.exception.InvalidInterval: Invalid Interval - the ending boundary must be greater than or equal to the starting boundary.
+	at org.opencds.cqf.cql.engine.runtime.Interval.<init>(Interval.java:53)
+	at org.opencds.cqf.cql.engine.elm.execution.IntervalEvaluator.internalEvaluate(IntervalEvaluator.java:20)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.execution.Context.resolveParameterRef(Context.java:416)
+	at org.opencds.cqf.cql.engine.elm.execution.ParameterRefEvaluator.internalEvaluate(ParameterRefEvaluator.java:9)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.EndEvaluator.internalEvaluate(EndEvaluator.java:32)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.SubtractEvaluator.internalEvaluate(SubtractEvaluator.java:128)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.IntervalEvaluator.internalEvaluate(IntervalEvaluator.java:9)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.InEvaluator.internalEvaluate(InEvaluator.java:154)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.AndEvaluator.internalEvaluate(AndEvaluator.java:49)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.AndEvaluator.internalEvaluate(AndEvaluator.java:50)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.QueryEvaluator.evaluateWhere(QueryEvaluator.java:75)
+	at org.opencds.cqf.cql.engine.elm.execution.QueryEvaluator.internalEvaluate(QueryEvaluator.java:198)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.elm.execution.ExpressionDefEvaluator.internalEvaluate(ExpressionDefEvaluator.java:17)
+	at org.opencds.cqf.cql.engine.elm.execution.Executable.evaluate(Executable.java:14)
+	at org.opencds.cqf.cql.engine.execution.CqlEngine.evaluateExpressions(CqlEngine.java:178)
+	at org.opencds.cqf.cql.engine.execution.CqlEngine.evaluate(CqlEngine.java:156)
+	at org.opencds.cqf.cql.engine.execution.CqlEngine.evaluate(CqlEngine.java:107)
+	at org.opencds.cqf.cql.engine.execution.CqlEngine.evaluate(CqlEngine.java:99)
+	at org.opencds.cqf.cql.service.Service.evaluate(Service.java:164)
+	at org.opencds.cqf.cql.cli.Main.main(Main.java:30)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Running tests.
+Data path: /Users/jacklevitt/Documents/GitHub/gic-content-r4/input/tests/EXM130-8.0.000
+Terminology path: /Users/jacklevitt/Documents/GitHub/gic-content-r4/input/vocabulary/valueset
+Test gaps-through-EXM130
+Thu Jun 18 2020 10:55:36 GMT-0600 (Mountain Daylight Time)
+Patient = org.hl7.fhir.r4.model.Patient@73d83141
+SDE Ethnicity = [org.hl7.fhir.r4.model.Coding@31443680]
+SDE Payer = []
+SDE Race = [org.hl7.fhir.r4.model.Coding@33356666]
+SDE Sex = Code { code: M, system: http://hl7.org/fhir/v3/AdministrativeGender, version: null, display: Male }
+Denominator = true
+Flexible Sigmoidoscopy Performed = []
+CT Colonography Performed = []
+Total Colectomy Performed = []
+Malignant Neoplasm Ever = []
+Fecal Occult Blood Test Performed = []
+Fecal Immunochemical Test DNA = []
+Colonoscopy Performed = []
+Numerator = false
+Denominator Exclusion = false
+Initial Population = true
+elapsed: 9.578 seconds
+
+Test no-gaps-EXM130
+Thu Jun 18 2020 10:55:36 GMT-0600 (Mountain Daylight Time)
+Patient = org.hl7.fhir.r4.model.Patient@73d83141
+SDE Ethnicity = [org.hl7.fhir.r4.model.Coding@31443680]
+SDE Payer = []
+SDE Race = [org.hl7.fhir.r4.model.Coding@33356666]
+SDE Sex = Code { code: M, system: http://hl7.org/fhir/v3/AdministrativeGender, version: null, display: Male }
+Denominator = true
+Flexible Sigmoidoscopy Performed = []
+CT Colonography Performed = []
+Total Colectomy Performed = []
+Malignant Neoplasm Ever = []
+Fecal Occult Blood Test Performed = []
+Fecal Immunochemical Test DNA = []
+Colonoscopy Performed = [org.hl7.fhir.r4.model.Procedure@3a988299]
+Numerator = true
+Denominator Exclusion = false
+Initial Population = true
+elapsed: 9.664 seconds
+
+Test gaps-EXM130
+Thu Jun 18 2020 10:55:36 GMT-0600 (Mountain Daylight Time)
+Patient = org.hl7.fhir.r4.model.Patient@31443680
+SDE Ethnicity = [org.hl7.fhir.r4.model.Coding@33356666]
+SDE Payer = []
+SDE Race = [org.hl7.fhir.r4.model.Coding@3a988299]
+SDE Sex = Code { code: M, system: http://hl7.org/fhir/v3/AdministrativeGender, version: null, display: Male }
+Denominator = true
+Flexible Sigmoidoscopy Performed = []
+CT Colonography Performed = []
+Total Colectomy Performed = []
+Malignant Neoplasm Ever = []
+Fecal Occult Blood Test Performed = []
+Fecal Immunochemical Test DNA = []
+Colonoscopy Performed = [org.hl7.fhir.r4.model.Procedure@878feb2]
+Numerator = true
+Denominator Exclusion = false
+Initial Population = true
+elapsed: 9.691 seconds
